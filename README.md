@@ -1,6 +1,6 @@
-# RealNVP 2D: Normalizing Flows for 2-Dimensional Distributions
+# RealNVP 2D: Normalising Flows for 2-Dimensional Distributions
 
-RealNVP (**Real-valued Non-Volume Preserving Transformations**) is a type of **normalizing flow** designed to model complex probability distributions by applying a sequence of invertible transformations. This project implements a **2D RealNVP** model tailored for illustrative datasets like the "moons" dataset, with modular, scalable components for research and experimentation.
+RealNVP (**Real-valued Non-Volume Preserving Transformations**) is a type of **normalising flow** designed to model complex probability distributions by applying a sequence of invertible transformations. This project implements a **2D RealNVP** model tailored for illustrative datasets like the "moons" dataset, with modular, scalable components for research and experimentation.
 
 ---
 
@@ -181,7 +181,7 @@ The corresponding Jacobian determinant adjustment is:
 
 #### **Forward Pass** (\(x \to z\)):
 1. Pass input \(x\) through a sequence of affine coupling layers.
-2. Normalize the outputs using the \(\tanh\)-based normalization layer.
+2. Normalise the outputs using the \(\tanh\)-based normalisation layer.
 
 #### **Inverse Pass** (\(z \to x\)):
 1. Reverse the normalisation layer.
