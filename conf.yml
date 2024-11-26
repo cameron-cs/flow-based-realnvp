@@ -1,0 +1,17 @@
+masks:
+  - [1.0, 0.0]
+  - [0.0, 1.0]
+  - [1.0, 0.0]
+  - [0.0, 1.0]
+  - [1.0, 0.0]
+  - [0.0, 1.0]
+  - [1.0, 0.0]
+  - [0.0, 1.0]
+checkpoint_path: checkpoint/realnvp_model.pth
+hidden_dim: 128
+learning_rate: 0.0001
+num_steps: 5000
+batch_size: 512
+dataset:
+  n_samples: 1000
+  noise: 0.05
