@@ -90,7 +90,7 @@ The negative log-likelihood loss is:
 
 ## Architecture Overview
 
-The RealNVP 2D model leverages **normalizing flows** to learn bijective mappings between a target distribution and a simpler base distribution (e.g., standard Gaussian). The core of the architecture is the **Affine Coupling Layer**, supported by modular components for masking, scaling, and translation.
+The RealNVP 2D model leverages **normalising flows** to learn bijective mappings between a target distribution and a simpler base distribution (e.g., standard Gaussian). The core of the architecture is the **Affine Coupling Layer**, supported by modular components for masking, scaling, and translation.
 
 ### 1. **Affine Coupling Layer**
 
